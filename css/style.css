@@ -1,0 +1,36 @@
+p {
+  font-size: 20px;
+  color: white; }
+
+.color__background {
+  background-color: pink; }
+
+.color__background--texto {
+  background-color: gold; }
+
+.color_texto {
+  color: black; }
+
+.color__texto--2 {
+  color: white; }
+
+h3 {
+  background-color: white;
+  color: black;
+  border: 5px solid gold;
+  font-size: 30x; }
+
+p {
+  background-color: blue; }
+
+.foto1 {
+  height: 33%;
+  width: 33%; }
+
+.foto2 {
+  height: 22%;
+  width: 22%; }
+
+.foto3 {
+  height: 11%;
+  width: 11%; }
