@@ -24,3 +24,19 @@
 .about-map {
   grid-column: 2/3;
   grid-row: 7/11; }
+
+@media only screen and (max-width: 600px) {
+  .grid-about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 100px 100px 100px 100px 100px 100px; }
+  .about-us-logo {
+    grid-column: 1/3;
+    grid-row: 2/3; }
+  .about-p {
+    font-size: 15px;
+    grid-column: 1/3;
+    grid-row: 3/5; }
+  .im-opm {
+    grid-column: 1/3;
+    grid-row: 8/9; } }

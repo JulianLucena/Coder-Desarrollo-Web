@@ -3,14 +3,25 @@ body{
 }
 
 p{
-    text-align: center;
     color: white;
     letter-spacing: 0cm;
     word-spacing: 0cm;
     font-size: 150%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;       
-    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;      
 }
+
+h3{
+    color: white;
+    letter-spacing: 0cm;
+    word-spacing: 0cm;
+    font-size: 150%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;      
+}
+
+ul{
+    list-style-image: url(im/chibi-check.png);
+}
+
 .grid-index{
     display:grid;
     height: 100vh;
@@ -55,7 +66,7 @@ p{
 }
 
 .index-ad3{
-    background-image: url(im/Veritas\ AD.png);
+    background-image: url(im/FC\ AD.png);
     background-size: contain;
     background-position-x: center;
     background-position-y: center;
@@ -109,18 +120,26 @@ p{
 .grid-in-shop{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 80px 180px 200px 200px 200px 200px;
+    grid-template-rows: 80px 180px 450px 450px 450px 200px;
     grid-gap: 20px;   
 }
 
 .in-shop-banner{    
     grid-column: 1/6;
-    grid-row: 1/2;
-   
+    grid-row: 1/2;   
 }
 
 .in-shop-logo-disp{
     background-image: url(im/Shop-Disp.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 1/6;
+    grid-row: 2/3;   
+}
+
+.in-shop-logo-317{
+    background-image: url(im/317-long-banner.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -149,7 +168,7 @@ p{
 }
 
 .link-ver{
-    background-image: url(im/Logo-Ver.png);
+    background-image: url(im/Logo-FC.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -167,7 +186,7 @@ p{
 }
 
 .im-opm{
-    background-image: url(im/Placeholder.png);
+    background-image: url(im/Depósito\ Frente.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;    
@@ -178,6 +197,16 @@ p{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;    
+}
+
+
+.in-shop-logo-fc{
+    background-image: url(im/fc-long-banner.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-column: 1/6;
+    grid-row: 2/3;   
 }
 
 .pop-up{
@@ -209,31 +238,13 @@ p{
         grid-row: 4/5;
     } 
     .index-ad3{
-        background-image: url(im/Ver-Banner.png);        
+        background-image: url(im/Fc-Banner.png);        
         background-position-x: center;
         background-position-y: center;
         background-repeat: no-repeat;
         grid-column: 1/7;
         grid-row: 5/6;
-    }  
-
-    .grid-in-shop{
-        width: 100vh;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 40px 80px 80px 80px 80px 80px 80px;
-    }
-
-    .in-shop-banner{
-        background-color: red;
-        grid-column: 1/4;
-        grid-row: 1/2;       
-    }
-    
-    .in-shop-logo{
-        background-color: blue;
-        grid-column: 1/4;
-        grid-row: 2/3;   
-    }
+    }   
 
     .index-banner{
         grid-column: 1/7;
@@ -270,7 +281,7 @@ p{
     }
 
     .link-ver{
-        background-image: url(im/Shop-Ver.png);
+        background-image: url(im/Shop-FC.png);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;  
@@ -287,29 +298,53 @@ p{
     .nav-bar-about{
         grid-column: 1/3;
         grid-row: 1/1;
+    }    
+
+    .grid-in-shop{
+        display: grid;
+        width: 100vh;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 80px 90px 350px 350px 350px 350px 350px;        
+    }   
+
+    .in-shop-logo-disp{
+        background-image: url(im/Shop-Disp.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/4;
+        grid-row: 2/3;   
+    }
+    
+    .in-shop-banner{    
+        grid-column: 1/4;
+        grid-row: 1/2;   
     }
 
-    .im-opm{
-        background-color: blueviolet;
-        grid-column: 1/2;
-        grid-row: 3/7;
+    .in-shop-logo-317{
+        background-image: url(im/317-long-banner.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/4;
+        grid-row: 2/3;   
     }
-    
+
+    .in-shop-logo-fc{
+        background-image: url(im/fc-long-banner.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: 1/4;
+        grid-row: 2/3;   
+    }
+
     .about-us-logo{
-        
-        grid-column: 1/3;
-        grid-row: 2/3;
+        background-image: url("im/About-us-logo.png");
+        background-size: cover;
     }
-    
-    .about-p{        
-        background-color: green;
-        grid-column: 2/3;
-        grid-row: 3/7;
-    }
-    
-    .about-map{        
-        background-color: red;  
-        grid-column: 1/3;
-        grid-row: 7/10;
+
+    p{
+        text-align: center;
     }
 }
