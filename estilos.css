@@ -209,6 +209,10 @@ ul{
     grid-row: 2/3;   
 }
 
+.dir{
+    background-image: url("im/Dir.png");    
+}
+
 .pop-up{
 
 }
@@ -238,7 +242,7 @@ ul{
         grid-row: 4/5;
     } 
     .index-ad3{
-        background-image: url(im/Fc-Banner.png);        
+        background-image: url(im/fc-Banner.png);        
         background-position-x: center;
         background-position-y: center;
         background-repeat: no-repeat;
@@ -346,5 +350,9 @@ ul{
 
     p{
         text-align: center;
+    }
+
+    .im-opm{
+        background-image: url("im/Dir.png");
     }
 }
