@@ -3,7 +3,7 @@
     height: 100vh;    
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 20px; 
 }
 
 .im-opm{    
@@ -33,7 +33,7 @@
 
 .dir{
     grid-column: 2/3;
-    grid-row: 7/11;
+    grid-row: 8/11;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,6 +44,7 @@
         display: grid;             
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 50px 100px 100px 100px 100px 100px 100px;
+        grid-gap: 0px;
     }    
     
     .about-us-logo{ 
